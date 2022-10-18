@@ -119,6 +119,7 @@ on_actions = {
 				set_variable={host = FRA.id}
 			}
 			var:host = {set_country_flag = host}
+			set_variable = { host.marked_states = 0 }
 		}
 	}
 }
